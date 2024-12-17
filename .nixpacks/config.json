@@ -1,0 +1,16 @@
+{
+  "phases": {
+    "setup": {
+      "cmds": ["npm install -g typescript"]
+    },
+    "install": {
+      "cmds": ["npm ci"]
+    },
+    "build": {
+      "cmds": ["npm run build:back"]
+    },
+    "start": {
+      "cmds": ["npm run start"]
+    }
+  }
+}
